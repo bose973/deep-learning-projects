@@ -50,3 +50,18 @@ Train and validate the model.
 8. Evaluate Metrics
 Sensitivity (Recall): Measure the ability to correctly identify defaults.
 ROC-AUC: Calculate the area under the Receiver Operating Characteristic curve for overall performance.
+
+## 🚀 How to Run
+1. Clone the repository:
+   git clone https://github.com/bose973/deep-learning-projects.git
+2. Make sure python 3.12.1 is installed in your system
+3. Navigate to the project folder:
+   cd deep-learning-projects\home_loan_analysis\
+4. Create the virtual env - run these two commands step by step:
+   1)python -m venv DL_ENV
+   2).\DL_ENV\Scripts\Activate.ps1
+   3)pip install -r ./Data-Science-EDA/marketing-analysis/required_packages.txt
+5. Update the python interpretor of your IDE to DL_ENV
+6. Unzip the dataset Home_loan_data.zip
+7. Run the project-code file using jupyter editor in your IDE:
+   model_analysis.ipynb
